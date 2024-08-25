@@ -3,7 +3,9 @@ function verificarBisiesto(numero) {
         return "Es Bisiesto"
     } else if(numero % 100 === 0) {
         return "No es Bisiesto"
-    };  
+    } else if(numero % 4 === 0) {
+        return "Es Bisiesto"
+    }
 };
 
 export default verificarBisiesto;
